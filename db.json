@@ -43,5 +43,52 @@
         "ADPublicStrategyURL": "http://1.9.58.117:7001/EPG/XML/AdPublicStrategy",
         "SQMURL": "2|https://1.9.58.118:37059;1|https://10.0.223.184:37050"
     }
+  },
+  "Authenticate": {
+    "subscriberID": "0182644320",
+    "isFirstLogin": "1",
+    "devices": [
+        {
+            "deviceType": "6",
+            "fps": "30.0",
+            "terminalVendor": "iPhone SE (1st generation)",
+            "cADeviceInfos": [
+                {
+                    "cADeviceID": "f8a1c224-86a9-4356-a066-6cc6f3dfc5c2",
+                    "cADeviceType": "6"
+                }
+            ],
+            "physicalDeviceID": "f8a1c224-86a9-4356-a066-6cc6f3dfc5c2",
+            "name": "iPhone SE (1st generation)",
+            "deviceModel": "iPhone",
+            "definition": "0,1",
+            "ID": "10001001249807",
+            "onlineState": "0",
+            "status": "1"
+        },
+        {
+            "deviceType": "6",
+            "fps": "30.0",
+            "terminalVendor": "iPad (8th generation)",
+            "cADeviceInfos": [
+                {
+                    "cADeviceID": "aafe3371-d5cb-4360-bcba-18c3a6c9590a",
+                    "cADeviceType": "6"
+                }
+            ],
+            "physicalDeviceID": "aafe3371-d5cb-4360-bcba-18c3a6c9590a",
+            "name": "iPad (8th generation)",
+            "deviceModel": "iPad",
+            "definition": "0,1",
+            "ID": "10001001249784",
+            "onlineState": "0",
+            "status": "1"
+        }
+    ],
+    "result": {
+        "retMsg": "ERR- 157022007: device has arrive at the upper limit because no available logical device or mac address not match.",
+        "retCode": "157022007"
+    },
+    "jSessionID": "02TRS4C38MZJTB2EU63AGW6M3U7G8SYW"
   }
 }
