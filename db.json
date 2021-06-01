@@ -1,0 +1,10 @@
+{
+  "LoginRoute": {
+    "result": {
+        "retCode": "000000000",
+        "retMsg": "dispatch success."
+    },
+    "vspURL": "http://1.9.58.117:7001",
+    "vspHttpsURL": "https://1.9.58.117:7015"
+  }
+}
