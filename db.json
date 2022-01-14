@@ -1,94 +1,29 @@
 {
-  "LoginRoute": {
-    "result": {
-        "retCode": "000000000",
-        "retMsg": "dispatch success."
-    },
-    "vspURL": "http://1.9.58.117:7001",
-    "vspHttpsURL": "https://1.9.58.117:7015"
-  },
-  "Login": {
-    "subnetID": "-1",
-    "upgradeDomain": "http://1.9.58.117:8082",
-    "vspHttpsURL": "https://1.9.58.117:7015",
-    "NTPDomainBackup": "10.0.194.6",
-    "result": {
-        "retCode": "000000000",
-        "retMsg": "Success"
-    },
-    "vspURL": "http://1.9.58.117:7001",
-    "rootCerAddr": "http://1.9.58.117:7001",
-    "NTPDomain": "10.0.194.5",
-    "mgmtDomain": "http://www.www.www",
-    "parameters": {
-        "MQMCURL": "10.0.223.184",
-        "giftLoyaltyByBrowseAD": "0",
-        "isSupportPublicAD": "0",
-        "ADPlatformURL": "http://www.ADPlatformUrl.com",
-        "giftLoyaltyByReceiveADWithEmail": "0",
-        "favoCatalogLimit": "5",
-        "TVMSHeartbitURL": "http://1.9.58.117:7015/query.do",
-        "ADPlayOverNotifyURL": "http://1.9.58.117:7001/EPG/XML/AdPlayOverNotify",
-        "profileLimit": "5",
-        "TVMSDelayLength": "60",
-        "lockLimit": "10",
-        "PLTVDelay": "10",
-        "favouriteLimit": "70",
-        "DVBEnable": "0",
-        "TVMSVodHeartbitURL": "http://1.9.58.117:7015/query.do",
-        "mashupAddress": " ",
-        "TVMSHeartbitInterval": "60",
-        "bookmarkLimit": "10",
-        "giftLoyaltyByReceiveADWithSMS": "0",
-        "ADPublicStrategyURL": "http://1.9.58.117:7001/EPG/XML/AdPublicStrategy",
-        "SQMURL": "2|https://1.9.58.118:37059;1|https://10.0.223.184:37050"
-    }
-  },
-  "Authenticate": {
-    "subscriberID": "0182644320",
-    "isFirstLogin": "1",
-    "devices": [
-        {
-            "deviceType": "6",
-            "fps": "30.0",
-            "terminalVendor": "iPhone SE (1st generation)",
-            "cADeviceInfos": [
-                {
-                    "cADeviceID": "f8a1c224-86a9-4356-a066-6cc6f3dfc5c2",
-                    "cADeviceType": "6"
-                }
-            ],
-            "physicalDeviceID": "f8a1c224-86a9-4356-a066-6cc6f3dfc5c2",
-            "name": "iPhone SE (1st generation)",
-            "deviceModel": "iPhone",
-            "definition": "0,1",
-            "ID": "10001001249807",
-            "onlineState": "0",
-            "status": "1"
-        },
-        {
-            "deviceType": "6",
-            "fps": "30.0",
-            "terminalVendor": "iPad (8th generation)",
-            "cADeviceInfos": [
-                {
-                    "cADeviceID": "aafe3371-d5cb-4360-bcba-18c3a6c9590a",
-                    "cADeviceType": "6"
-                }
-            ],
-            "physicalDeviceID": "aafe3371-d5cb-4360-bcba-18c3a6c9590a",
-            "name": "iPad (8th generation)",
-            "deviceModel": "iPad",
-            "definition": "0,1",
-            "ID": "10001001249784",
-            "onlineState": "0",
-            "status": "1"
-        }
-    ],
-    "result": {
-        "retMsg": "ERR- 157022007: device has arrive at the upper limit because no available logical device or mac address not match.",
-        "retCode": "157022007"
-    },
-    "jSessionID": "02TRS4C38MZJTB2EU63AGW6M3U7G8SYW"
+  "request": {
+    "promoAds": [
+      {
+        "index": "1",
+        "productID": "ABC123",
+        "title": "Unifi Promo",
+        "posterURL": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-B2.jpg",
+        "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
+        "extRedirection": "https://www.apple.com/my/mac-mini/"
+      },
+      {
+        "index": "2",
+        "productID": "DEF456",
+        "title": "Lazada Promo",
+        "posterURL": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-B2.jpg",
+        "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg"
+      },
+      {
+        "index": "3",
+        "productID": "GHI789",
+        "title": "Netflix Promo",
+        "posterURL": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-B2.jpg",
+        "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
+        "extRedirection": "https://www.apple.com/my/macbook-air/"
+      }
+    ]
   }
 }
