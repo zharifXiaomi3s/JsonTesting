@@ -1,6 +1,6 @@
 {
   "request": {
-    "promoAds": [
+    "PromoAds": [
       {
         "index": "1",
         "productID": "ABC123",
