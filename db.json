@@ -5,7 +5,7 @@
         "index": "1",
         "productID": "ABC123",
         "title": "Unifi Promo",
-        "posterURL": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-B2.jpg",
+        "posterURL": "http://1.9.217.181:7005/CPS/images/universal/film/poster/202005/20200519/202005191012430370cy_op.jpg",
         "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
         "extRedirection": "https://www.apple.com/my/mac-mini/"
       },
@@ -13,14 +13,14 @@
         "index": "2",
         "productID": "DEF456",
         "title": "Lazada Promo",
-        "posterURL": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-B2.jpg",
+        "posterURL": "http://1.9.217.181:7005/CPS/images/universal/film/poster/202107/20210702/20210702080201045kb5_op.jpg",
         "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg"
       },
       {
         "index": "3",
         "productID": "GHI789",
         "title": "Netflix Promo",
-        "posterURL": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-B2.jpg",
+        "posterURL": "http://1.9.217.181:7005/CPS/images/universal/film/poster/201907/20190722/20190722143033202ip7_op.jpg",
         "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
         "extRedirection": "https://www.apple.com/my/macbook-air/"
       }
