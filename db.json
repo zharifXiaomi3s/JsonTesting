@@ -1,6 +1,6 @@
 {
   "request": {
-    "promoAdsStatus": true,
+    "PromoAdsStatus": true,
     "PromoAds": [
       {
         "index": "1",
