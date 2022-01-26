@@ -1,43 +1,23 @@
 {
     "request": {
-      "PromoAdsStatus": true,
-      "PromoAds": [
-        {
-          "index": "1",
-          "productID": "BLUB",
-          "title": "Promo",
-          "posterURL": "https://thumbs.dreamstime.com/b/claim-now-neon-signboard-brick-wall-unique-style-design-can-be-used-banners-posters-magazine-covers-flyers-etc-226041435.jpg",
-          "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
-          "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
-          "promoStatus": true
-        },
-        {
-          "index": "2",
-          "productID": "ABC123",
-          "title": "Unifi Promo",
-          "posterURL": "http://1.9.217.181:7005/CPS/images/universal/film/poster/202005/20200519/202005191012430370cy_op.jpg",
-          "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
-          "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
-          "promoStatus": true
-        },
-        {
-          "index": "3",
-          "productID": "DEF456",
-          "title": "Lazada Promo",
-          "posterURL": "http://1.9.217.181:7005/CPS/images/universal/film/poster/202107/20210702/20210702080201045kb5_op.jpg",
-          "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
-          "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
-          "promoStatus": false
-        },
-        {
-          "index": "4",
-          "productID": "GHI789",
-          "title": "Netflix Promo",
-          "posterURL": "http://1.9.217.181:7005/CPS/images/universal/film/poster/201907/20190722/20190722143033202ip7_op.jpg",
-          "posterURL_ATV": "https://nmhub.hypp.tv/JSON/Images/Week45_JDTvsKDA-A2.jpg",
-          "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
-          "promoStatus": false
-        }
-      ]
+        "PromoAdsStatus": true,
+        "PromoAds": [
+            {
+                "index": "1",
+                "title": "OTT Promo",
+                "BlurbPoster": "https://nmhub.hypp.tv/PromoBanner/BlurbOTT.jpg",
+                "PopUpPoster": "https://nmhub.hypp.tv/PromoBanner/PopUp_OTTPromo.jpg",
+                "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
+                "promoStatus": true
+            },
+            {
+                "index": "2",
+                "title": "Unifi Promo",
+                "BlurbPoster": "https://nmhub.hypp.tv/PromoBanner/BlurbOTT.jpg",
+                "PopUpPoster": "https://nmhub.hypp.tv/PromoBanner/PopUp_OTTPromo.jpg",
+                "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
+                "promoStatus": false
+            }
+        ]
     }
-  }
+}
