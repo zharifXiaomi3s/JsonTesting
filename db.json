@@ -1,26 +1,24 @@
 {
     "request": {
-        "request": {
-            "PromoAdsStatus": true,
-            "PromoAds":
-            [
-                {
-                    "index": "1",
-                    "title": "OTT Promo",
-                    "BlurbPoster": "https://nmhub.hypp.tv/PromoBanner/BlurbOTT.jpg",
-                    "PopUpPoster": "https://nmhub.hypp.tv/PromoBanner/PopUp_OTTPromo.jpg",
-                    "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
-                    "promoStatus": true
-                },
-                {
-                    "index": "2",
-                    "title": "Unifi Promo",
-                    "BlurbPoster": "https://image.freepik.com/free-vector/claim-now-neon-signs-style-text_118419-2492.jpg",
-                    "PopUpPoster": "http://1.9.217.181:7036/CPS/images/universal/film/poster/202107/20210702/20210702080201045kb5_op.jpg",
-                    "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
-                    "promoStatus": false
-                }
-            ]
-        }
+        "PromoAdsStatus": true,
+        "PromoAds":
+        [
+            {
+                "index": "1",
+                "title": "OTT Promo",
+                "BlurbPoster": "https://nmhub.hypp.tv/PromoBanner/BlurbOTT.jpg",
+                "PopUpPoster": "https://nmhub.hypp.tv/PromoBanner/PopUp_OTTPromo.jpg",
+                "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
+                "promoStatus": true
+            },
+            {
+                "index": "2",
+                "title": "Unifi Promo",
+                "BlurbPoster": "https://image.freepik.com/free-vector/claim-now-neon-signs-style-text_118419-2492.jpg",
+                "PopUpPoster": "http://1.9.217.181:7036/CPS/images/universal/film/poster/202107/20210702/20210702080201045kb5_op.jpg",
+                "extRedirection": "https://activate.unifi.com.my/ott/icredirect.aspx?cid=act&uid=",
+                "promoStatus": false
+            }
+        ]
     }
 }
